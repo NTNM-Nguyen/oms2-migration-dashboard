@@ -52,7 +52,8 @@ The main challenges were **offline or unregistered devices**, requiring follow-u
 2. Primary causes of migration failure were **logistical (offline/unregistered)** rather than technical.  
 3. The Power BI dashboard enabled **real-time visibility**, improving coordination between regional and central teams.  
 
-[![Dashboard Overview Snapshot](# "Overall Project Dashboard")](#)
+Screenshot 2025-10-14 202131.png
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 ---
 
