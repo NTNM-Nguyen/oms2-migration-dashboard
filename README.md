@@ -1,14 +1,15 @@
-# OMS 2.0 Enhancement Dashboard  
+# OMS 2.0 Enhancement Project Tracker  
 
 ## **Project Background**  
-RICOH is a leading **digital printing and imaging solutions provider**, operating in the print and document management industry for over **30 years**. The company’s business model revolves around providing **hardware, software, and managed services** to enterprise clients worldwide.  
+RICOH is a leading **digital printing and imaging solutions provider**, operating in the print and document management industry for over 88 years. The company’s business model revolves around providing **hardware, software, and managed services** to enterprise clients worldwide.  
 
-The **OMS 2.0 Enhancement and Migration Project** was initiated as part of RICOH’s ongoing commitment to improving **user experience (UX)** and **system integration**. The goal was to modernize and unify printer login methods and user interfaces across the **client’s global printer fleet** — encompassing **6,000+ devices** across **15+ office locations**.  
+The **OMS 2.0 Enhancement and Migration Project** was initiated as part of RICOH’s ongoing commitment to improving **user experience (UX)** and **system integration**. The goal was to modernize and unify printer login methods and user interfaces across a major client’s global printer fleet — encompassing **6,000+ devices** across **15+ office locations**.  
 
-As a **Reporting analyst** on this project, my role was to design and maintain a **dashboard** that provides real-time **reporting and tracking** for project stakeholders, including project managers and client representatives. The dashboard was built to:  
+As a **Business Intelligence developer**, I partnered with the project team to design a dashboard solution that provides **reporting and tracking** for project stakeholders, including project managers and client representatives. The dashboard was built to:  
 - Monitor the **enhancement process** and **implementation timeline**  
-- Observe **daily trends** in device migration success and failure  
-- Track the **overall progress** and identify **bottlenecks** for timely resolution  
+- Observe **weekly trends** in migration success/failure, showcase **migrated vs. remaining devices to date** compared to the whole fleet 
+- Track the **overall progress** and identify **bottlenecks** for timely resolution
+⏰The solution also to be scheduled for automatic refresh in time for daily project meetings held at *12:00 PM* to review progress, identify issues, and plan next steps.  
 
 ### **Data Tools & Technologies Used**
 - **SharePoint** → Primary data source (updated daily by Asset and Project Managers)  
@@ -19,49 +20,36 @@ As a **Reporting analyst** on this project, my role was to design and maintain a
 
 ---
 
-## **Data Structure & Initial Checks**  
-The main data source for the project was **SharePoint**, maintained daily by the Asset and Project Managers. Each printer’s enhancement status was tracked against the master **Asset List**, using fields such as:  
-- `To be migrated? (Y/N)`  
-- `Migrated successfully? (Y/N)`  
-- `Reason of failure`  
-
-Daily project meetings were held at **12:00 PM** to review progress, identify issues, and plan next steps.  
-
 ### **Database Overview**
-The dataset contained approximately **3,000 records** representing individual printer assets, structured across four tables:  
+The main data source for the project was **SharePoint**, maintained daily by the Asset and Project Manager. Each printer’s enhancement status was tracked against the master **Asset List**. The dataset contained approximately **6,000 records** representing individual printer devices, consisted of three parts:  
 
-| **Table** | **Description** |
+| **Table Section** | **Description** |
 |------------|----------------|
-| **Table 1 – Asset List** | Contains all devices under the global account’s fleet, with device identifiers and location details. |
-| **Table 2 – Migration Status** | Tracks the migration progress of each device (`To be migrated`, `Migrated successfully`, etc.). |
-| **Table 3 – Failure Logs** | Logs migration errors and their causes (`Offline`, `Not in System`, `Network Error`). |
-| **Table 4 – Project Timeline** | Daily updates including migration phase, progress percentage, and project notes. |
+| **Asset List** | Contains all devices under the global account’s fleet, with device identifiers and location details. |
+| **Migration Status** | Tracks the migration progress of each device (`To be migrated`, `Migrated successfully`, `Mirgration time` etc.). |
+| **Failure Logs** | Logs migration errors and their causes (`Offline`, `Not in System`, `Network Error`). |
 
-[![Entity Relationship Diagram Placeholder](# "Entity Relationship Diagram")](#)
-
+***insert screenshot from Sharepoint, erase imp
 ---
 
 ## **Executive Summary**
 
 ### **Overview of Findings**
-Over the course of **19 weeks**, the OMS 2.0 migration project achieved a **99.24% successful migration rate** across the targeted printer fleet.  
-The main challenges were **offline or unregistered devices**, requiring follow-up with local IT teams. Despite these issues, the project reached completion **on time and within scope**.  
+Over the course of 19 weeks, the OMS 2.0 migration project achieved a **99.24% successful migration rate** across the targeted printer fleet.  
+The main challenges were **offline or unregistered devices**, requiring follow-up with local IT teams. Despite these issues, the project reached completion on time and within scope thanked to the close collaboration and effort from both RICOH and client teams.
 
-### **Key Takeaways for Stakeholders (e.g., Project Manager)**
+![Dashboard Overview](/Assets/Screenshot_2025-10-14_202131.png)
+
+### **Key Takeaway**
 1. **99.24%** of devices were successfully migrated within the planned 19-week period.  
 2. Primary causes of migration failure were **logistical (offline/unregistered)** rather than technical.  
 3. The Power BI dashboard enabled **real-time visibility**, improving coordination between regional and central teams.  
-
-<img width="1325" height="743" alt="Screenshot 2025-10-14 202131" src="https://github.com/user-attachments/assets/3855fc55-65a2-4b93-b59a-2c662e1f5a35" />
-
-![Dashboard Overview](/Assets/Screenshot 2025-10-14 202131.png).
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
 ---
 
 ## **Insights Deep Dive**
 
-### **Category 1: Summarized Data**
+### **Project's current status and Snapshot**
 A set of **card visuals** provides a snapshot of key performance metrics:
 - Total devices in migration scope  
 - Total attempted migrations  
@@ -74,7 +62,7 @@ These summary cards give stakeholders a **quick project health check** during da
 
 ---
 
-### **Category 2: Trend Analysis**
+### **Enhancement Trend**
 Three **trend visuals** were developed to show performance over time:
 1. **Weekly successful vs. remaining devices**  
 2. **Weekly successful vs. failed devices**  
@@ -86,7 +74,7 @@ These visuals helped identify weekly progress trends and highlighted performance
 
 ---
 
-### **Category 3: Failed Devices and Reasons**
+### **Failed Devices and Reasons**
 A **pie chart visualization** illustrates the top causes of failed migrations:
 - **Offline Devices** (most frequent issue)  
 - **Devices not listed in the client’s system**  
