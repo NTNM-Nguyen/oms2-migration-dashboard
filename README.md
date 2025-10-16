@@ -9,6 +9,7 @@ As a **Business Intelligence developer**, I partnered with the project team to d
 - Monitor the **enhancement process** and **implementation timeline**  
 - Observe **weekly trends** in migration success/failure, showcase **migrated vs. remaining devices to date** compared to the whole fleet 
 - Track the **overall progress** and identify **bottlenecks** for timely resolution
+
 ⏰The solution also to be scheduled for automatic refresh in time for daily project meetings held at *12:00 PM* to review progress, identify issues, and plan next steps.  
 
 ### **Data Tools & Technologies Used**
