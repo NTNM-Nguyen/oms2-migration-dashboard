@@ -5,7 +5,7 @@ RICOH is a leading **digital printing and imaging solutions provider**, operatin
 
 The **OMS 2.0 Enhancement and Migration Project** was initiated as part of RICOH’s ongoing commitment to improving **user experience (UX)** and **system integration**. The goal was to modernize and unify printer login methods and user interfaces across the **client’s global printer fleet** — encompassing **6,000+ devices** across **15+ office locations**.  
 
-As a **data analyst** on this project, my role was to design and maintain a **dashboard** that provides real-time **reporting and tracking** for project stakeholders, including project managers and client representatives. The dashboard was built to:  
+As a **Reporting analyst** on this project, my role was to design and maintain a **dashboard** that provides real-time **reporting and tracking** for project stakeholders, including project managers and client representatives. The dashboard was built to:  
 - Monitor the **enhancement process** and **implementation timeline**  
 - Observe **daily trends** in device migration success and failure  
 - Track the **overall progress** and identify **bottlenecks** for timely resolution  
@@ -52,8 +52,10 @@ The main challenges were **offline or unregistered devices**, requiring follow-u
 2. Primary causes of migration failure were **logistical (offline/unregistered)** rather than technical.  
 3. The Power BI dashboard enabled **real-time visibility**, improving coordination between regional and central teams.  
 
-!(Screenshot 2025-10-14 202131.png)
+<img width="1325" height="743" alt="Screenshot 2025-10-14 202131" src="https://github.com/user-attachments/assets/3855fc55-65a2-4b93-b59a-2c662e1f5a35" />
 
+![Dashboard Overview](/Assets/Screenshot 2025-10-14 202131.png).
+![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
 ---
 
