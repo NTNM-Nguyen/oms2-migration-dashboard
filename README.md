@@ -12,8 +12,10 @@ As a **Business Intelligence developer**, I partnered with the project team to d
 
 ⏰The solution also to be scheduled for automatic refresh in time for daily project meetings held at *12:00 PM* to review progress, identify issues, and plan next steps.  
 
+![Dashboard Overview](/Assets/Screenshot_2025-10-14_202131.png)
+
 ### **Data Tools & Technologies Used**
-- **SharePoint** → Primary data source (updated daily by Asset and Project Managers)  
+- **SharePoint** → Primary data source 
 - **Power Query** → Data extraction and cleaning  
 - **DAX (Data Analysis Expressions)** → Custom measures and calculated fields  
 - **Power BI Desktop** → Interactive dashboard development  
@@ -30,7 +32,9 @@ The main data source for the project was **SharePoint**, maintained daily by the
 | **Migration Status** | Tracks the migration progress of each device (`To be migrated`, `Migrated successfully`, `Mirgration time` etc.). |
 | **Failure Logs** | Logs migration errors and their causes (`Offline`, `Not in System`, `Network Error`). |
 
-***insert screenshot from Sharepoint, erase imp
+<img width="1812" height="852" alt="Screenshot 2025-10-17 121026" src="https://github.com/user-attachments/assets/e303f10c-9b82-4df6-b11c-f16a4c8b25db" />
+<img width="752" height="337" alt="Screenshot 2025-10-17 144558" src="https://github.com/user-attachments/assets/bcaddf7a-25b3-4c4a-bae3-9e8829f351ec" />
+
 ---
 
 ## **Executive Summary**
@@ -39,12 +43,10 @@ The main data source for the project was **SharePoint**, maintained daily by the
 Over the course of 19 weeks, the OMS 2.0 migration project achieved a **99.24% successful migration rate** across the targeted printer fleet.  
 The main challenges were **offline or unregistered devices**, requiring follow-up with local IT teams. Despite these issues, the project reached completion on time and within scope thanked to the close collaboration and effort from both RICOH and client teams.
 
-![Dashboard Overview](/Assets/Screenshot_2025-10-14_202131.png)
-
 ### **Key Takeaway**
 1. **99.24%** of devices were successfully migrated within the planned 19-week period.  
 2. Primary causes of migration failure were **logistical (offline/unregistered)** rather than technical.  
-3. The Power BI dashboard enabled **real-time visibility**, improving coordination between regional and central teams.  
+3. The most significant jump in attempted and sucessful device happened after week 10 (week 41 calendar year), from 83 to 792 sucessful enhancement (~854% ⬆️increase), we can see 73% of the project was done within the last 7 weeks due to increase in communication and teams working together
 
 ---
 
