@@ -3,7 +3,7 @@
 ## **Project Background**  
 RICOH is a leading **digital printing and imaging solutions provider**, operating in the print and document management industry for over 88 years. The company’s business model revolves around providing **hardware, software, and managed services** to enterprise clients worldwide.  
 
-The **OMS 2.0 Enhancement and Migration Project** was initiated as part of RICOH’s ongoing commitment to improving **user experience (UX)** and **system integration**. The goal was to modernize and unify printer login methods and user interfaces across a major client’s global printer fleet — encompassing **6,000+ devices** across **15+ office locations**.  
+The **OMS 2.0 Enhancement and Migration Project** was initiated as part of RICOH’s ongoing commitment to improving **user experience (UX)** and **system integration**. The goal was to modernize and unify printer login methods and user interfaces across a major client’s global printer fleet — encompassing **5,000+ devices** across **20+ country locations**.  
 
 As a **Business Intelligence developer**, I partnered with the project team to design a dashboard solution that provides **reporting and tracking** for project stakeholders, including project managers and client representatives. The dashboard was built to:  
 - Monitor the **enhancement process** and **implementation timeline**  
@@ -12,9 +12,11 @@ As a **Business Intelligence developer**, I partnered with the project team to d
 
 ⏰The solution also to be scheduled for automatic refresh in time for daily project meetings held at *12:00 PM* to review progress, identify issues, and plan next steps.  
 
-![Dashboard Overview](/Assets/Screenshot_2025-10-14_202131.png)
+ Week 7             | Week 19  
+:-------------------------:|:-------------------------:
+ ![](Assets/Screenshot_2025-10-14_202640.png) | ![](/Assets/Screenshot_2025-10-14_202131.png) 
 
-### **Data Tools & Technologies Used**
+### **Data Tools**
 - **SharePoint** → Primary data source 
 - **Power Query** → Data extraction and cleaning  
 - **DAX (Data Analysis Expressions)** → Custom measures and calculated fields  
@@ -33,48 +35,33 @@ The main data source for the project was **SharePoint**, maintained daily by the
 | **Failure Logs** | Logs migration errors and their causes (`Offline`, `Not in System`, `Network Error`). |
 
 <img width="1812" height="852" alt="Screenshot 2025-10-17 121026" src="https://github.com/user-attachments/assets/e303f10c-9b82-4df6-b11c-f16a4c8b25db" />
-<img width="752" height="337" alt="Screenshot 2025-10-17 144558" src="https://github.com/user-attachments/assets/bcaddf7a-25b3-4c4a-bae3-9e8829f351ec" />
 
 ---
 
 ## **Executive Summary**
 
 ### **Overview of Findings**
-Over the course of 19 weeks, the OMS 2.0 migration project achieved a **99.24% successful migration rate** across the targeted printer fleet.  
-The main challenges were **offline or unregistered devices**, requiring follow-up with local IT teams. Despite these issues, the project reached completion on time and within scope thanked to the close collaboration and effort from both RICOH and client teams.
-
-### **Key Takeaway**
-1. **99.24%** of devices were successfully migrated within the planned 19-week period.  
-2. Primary causes of migration failure were **logistical (offline/unregistered)** rather than technical.  
-3. The most significant jump in attempted and sucessful device happened after week 10 (week 41 calendar year), from 83 to 792 sucessful enhancement (~854% ⬆️increase), we can see 73% of the project was done within the last 7 weeks due to increase in communication and teams working together
+Over the course of 19 weeks, the OMS 2.0 migration project achieved a **99.24% successful migration rate** across the targeted printer fleet. The most significant jump in attempted and sucessful device happened after week 10 (week 41 calendar year), from 83 to 792 sucessful enhancement (~854% ⬆️increase), we can see 72% of the project was done within the last 7 weeks due to offices back from summer holiday and increase in communication and cross-function synergies. The majority 77% of the client's fleet is located in EMEA region which is also the region with the highest failed migration, the main challenges were **offline or unregistered devices**, requiring follow-up with local IT teams rather than technical.
 
 ---
 
 ## **Insights Deep Dive**
 
 ### **Project's current status and Snapshot**
-A set of **card visuals** provides a snapshot of key performance metrics:
+A combined **card visuals** provides a snapshot of key performance metrics:
 - Total devices in migration scope  
 - Total attempted migrations  
 - Successful vs. failed migrations  
 - Current week’s progress  
-
 These summary cards give stakeholders a **quick project health check** during daily meetings.
-
-[![Summary Metrics Visualization](# "Summary Data Cards")](#)
+<img width="462" height="217" alt="Screenshot 2025-10-17 210448" src="https://github.com/user-attachments/assets/8e16be9b-c25b-4333-93ea-b11570c952f5" />
 
 ---
 
 ### **Enhancement Trend**
-Three **trend visuals** were developed to show performance over time:
-1. **Weekly successful vs. remaining devices**  
-2. **Weekly successful vs. failed devices**  
-3. **Cumulative migration success vs. failure rates**  
-
-These visuals helped identify weekly progress trends and highlighted performance dips during **holiday periods** and a **planned one-week break**.
-
-[![Trend Analysis Visualization](# "Weekly and Cumulative Trends")](#)
-
+ Successful vs. remaining devices             | Weekly and Accumulated Status
+:-------------------------:|:-------------------------:
+<img width="546" height="380" alt="Trend 1" src="https://github.com/user-attachments/assets/76edd3af-c2ba-47ce-be9c-21f2c0a551ee" /> | <img width="905" height="380" alt="trend 2" src="https://github.com/user-attachments/assets/8dd14680-0a8e-48de-8f67-85b10f2268fe" />
 ---
 
 ### **Failed Devices and Reasons**
@@ -85,23 +72,19 @@ A **pie chart visualization** illustrates the top causes of failed migrations:
 
 This breakdown allowed the team to **prioritize troubleshooting efforts** and communicate with local site managers for resolution.
 
-[![Failure Reason Distribution Chart](# "Reasons for Failed Migrations")](#)
+<img width="329" height="271" alt="pie" src="https://github.com/user-attachments/assets/e41ad501-e300-425f-8659-f192677283ca" />
 
 ---
 
 ## **Recommendations**
-
-1. **Improve Migration Speed**  
-   - Introduce predictive scheduling to flag and prioritize at-risk devices.  
+**Improve Migration Speed**  
+   - Consider project timeline during planning phrase to avoid holiday season and lack of communication.
 
 2. **Reduce Migration Errors**  
-   - Implement automated pre-check scripts to validate device connectivity and registration prior to migration.  
+   - Implement automated pre-check scripts to validate device connectivity and registration prior to migration. Cut time spend on locating offline devices and waiting for response.
 
 3. **Enhance Data Governance**  
-   - Maintain consistent SharePoint data formatting and enforce data entry validation rules.  
-
-4. **Scalability & Reuse**  
-   - The Power BI tracking framework can be **replicated for other migration projects** or **adapted for global accounts** with similar requirements.  
+   - Maintain consistent SharePoint data formatting and enforce data entry validation rules. Ensure mandatory columns remain unchanged and correctly filled in.
 
 ---
 
@@ -112,5 +95,5 @@ This breakdown allowed the team to **prioritize troubleshooting efforts** and co
 
 ---
 
-*Authored by: Minh Nguyen — Business Intelligence Developer*  
+*Authored by: Minh Nguyen — Business Intelligence Developer, Data Analyst*  
 *Linkedin: www.linkedin.com/in/minh-n-nguyen*
