@@ -5,7 +5,7 @@ RICOH is a leading **digital printing and imaging solutions provider**, operatin
 
 The **OMS 2.0 Enhancement and Migration Project** was initiated as part of RICOH’s ongoing commitment to improving **user experience (UX)** and **system integration**. The goal was to modernize and unify printer login methods and user interfaces across a major client’s global printer fleet — encompassing **5,000+ devices** across **20+ country locations**.  
 
-As a **Business Intelligence developer**, I partnered with the project team to design a dashboard solution that provides **reporting and tracking** for project stakeholders, including project managers and client representatives. The dashboard was built to:  
+As a **Business Intelligence developer**, I partnered with the project team to design a dashboard solution that provides **reporting and tracking** for project stakeholders, including project manager and client representatives. The dashboard was built to:  
 - Monitor the **enhancement process** and **implementation timeline**  
 - Observe **weekly trends** in migration success/failure, showcase **migrated vs. remaining devices to date** compared to the whole fleet 
 - Track the **overall progress** and identify **bottlenecks** for timely resolution
