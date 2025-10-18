@@ -12,7 +12,7 @@ As a **Business Intelligence developer**, I partnered with the project team to d
 
 ⏰The solution also to be scheduled for automatic refresh in time for daily project meetings held at *12:00 PM* to review progress, identify issues, and plan next steps.  
 
- Week 7             | Week 19  
+ Week 37             | Week 50  
 :-------------------------:|:-------------------------:
  ![](Assets/Screenshot_2025-10-14_202640.png) | ![](/Assets/Screenshot_2025-10-14_202131.png) 
 
@@ -39,8 +39,6 @@ The main data source for the project was **SharePoint**, maintained daily by the
 ---
 
 ## **Executive Summary**
-
-### **Overview of Findings**
 Over the course of 19 weeks, the OMS 2.0 migration project achieved a **99.24% successful migration rate** across the targeted printer fleet. The most significant jump in attempted and sucessful device happened after week 10 (week 41 calendar year), from 83 to 792 sucessful enhancement (~854% ⬆️increase), we can see 72% of the project was done within the last 7 weeks due to offices back from summer holiday, established processes, and increase in communication and cross-function synergies. The majority 77% of the client's fleet is located in EMEA region which is also the region with the highest failed migrations, the main challenges were **offline or unregistered devices**, requiring follow-up with local IT teams rather than technical.
 
 ---
@@ -54,7 +52,10 @@ A combined **card visuals** provides a snapshot of key performance metrics:
 - Successful vs. failed migrations  
 - Current week’s progress
 These summaries give stakeholders a **quick project health check** during daily meetings without the need of locating and trying to read the data from different visuals.
-<img width="462" height="217" alt="Screenshot 2025-10-17 210448" src="https://github.com/user-attachments/assets/8e16be9b-c25b-4333-93ea-b11570c952f5" />
+
+ Week 37             | Week 50
+:-------------------------:|:-------------------------:
+<img width="462" height="217" alt="card" src="https://github.com/user-attachments/assets/312535d5-1f19-44af-b853-21d2282b6352" /> | <img width="462" height="217" alt="Screenshot 2025-10-17 210448" src="https://github.com/user-attachments/assets/8e16be9b-c25b-4333-93ea-b11570c952f5" />
 
 ---
 
@@ -76,7 +77,7 @@ These summaries give stakeholders a **quick project health check** during daily 
   
  Reason of failure             | Migration Status by Region
 :-------------------------:|:-------------------------:
-<img width="329" height="271" alt="pie" src="https://github.com/user-attachments/assets/e41ad501-e300-425f-8659-f192677283ca" /> | <img width="320" height="271" alt="Screenshot 2025-10-17 210509" src="https://github.com/user-attachments/assets/1219236f-39ad-4688-a70b-c1cdca898663" />
+<img width="320" height="271" alt="pie" src="https://github.com/user-attachments/assets/e41ad501-e300-425f-8659-f192677283ca" /> | <img width="320" height="271" alt="Screenshot 2025-10-17 210509" src="https://github.com/user-attachments/assets/1219236f-39ad-4688-a70b-c1cdca898663" />
 
 ---
 
@@ -84,8 +85,10 @@ These summaries give stakeholders a **quick project health check** during daily 
 **Improve Migration Speed**  
    - The early slow weeks likely involved procedural setup, user access, and configuration testing. Create a standardized onboarding checklist to reduce lead time in future migrations.
    - The middle phase achieved the best throughput and lowest error rates. Capture key factors (e.g., staff allocation, communication cadence, device pre-check scripts) and formalize them into a scalable migration playbook for future global accounts.
+     
 **Reduce Migration Errors**  
    - Implement automated pre-check scripts to validate device connectivity and registration prior to migration. Cut time spend on locating offline devices and waiting for response.
+
 **Enhance Data Governance**  
    - Maintain consistent SharePoint data formatting and enforce data entry validation rules. Ensure mandatory columns remain unchanged and correctly filled in.
 
